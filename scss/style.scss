@@ -1,14 +1,80 @@
+$large: 1690px;
+$medium: 980px;
+$small:640px;
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap');
+
 @import "normalize";
 @import "layout";
 @import "elements";
+@import "header";
+@import "footer";
+@import "intro.scss";
+@import "subintro";
+@import "featured";
+@import "faq";
+@import "quote";
+
+
+$body-font-fam : 'Oswald', sans-serif;
+$font-color:  #1c1c1b;
+$grey-text:#6e774a;
+
 
 body{
-
+font-family: $body-font-fam;
+background-color: #f7f8f3;
 }
+
 
 /* Layout */
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
-	max-width: 1200px;
+	max-width: 1246px;
 }
+
+a{
+	&:hover{
+		color: darken(#1c1c1b, 25%);
+
+	}
+}
+
+
+#map{
+	height: 400px;
+}
+
+.ba-button{
+&--shop{
+	background-color:  #6e774a;
+}
+
+	text-transform: uppercase;
+	padding: 25px 40px;
+	border: 1px solid #fff;
+	font-size: 20px; 
+	
+		text-decoration: none;
+		color: #fff;
+	&::after{
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 15px;
+		height: 2px;
+background: #fff;
+		width: 45px;
+		top: 20px;
+	}
+}
+
+.ba-link{
+text-decoration: none;
+
+}
+
+
+

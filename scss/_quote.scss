@@ -1,0 +1,32 @@
+.ba-quote{
+    position: relative;
+    padding: 164px  0 ;
+ color: #fff;
+    background: #1c200b url(../img/couple.jpg);
+ background-size: cover;
+
+    @media (min-width: $medium) {
+height: 100vh;
+  }
+
+
+}
+
+.ba-quote-t{
+    text-align: center;
+    font-size: 22px;
+font-weight: 300;
+
+}
+.ba-rot-q{
+    font-size: 24px;
+font-weight: 300;
+position: absolute;
+bottom: 70px;
+left: -40px;
+
+
+
+ transform: rotate(-90deg);
+text-transform: uppercase;
+}

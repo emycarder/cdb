@@ -1,0 +1,27 @@
+.ba-footer{
+    color: #6e774a;
+}
+
+
+.ba-end-cbd{
+    text-align: center;
+    font-weight: normal;
+    font-size: 60px;
+&::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 300px;
+    background-color: #6e774a;
+        vertical-align: middle;
+        margin-right: 80px;
+}&::after{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 300px;
+    background-color: #6e774a;
+        vertical-align: middle;
+        margin-left: 80px;
+}
+}

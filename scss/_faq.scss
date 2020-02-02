@@ -1,0 +1,46 @@
+
+.ba-faq{
+    padding: 176px 0;
+}
+.ba-faq-t{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.ba-flex{
+    justify-content: center;
+    text-align: center;
+}
+
+.ba-list-faq{
+    li {
+    margin-bottom: 60px;
+}
+text-align: left;
+    list-style: none;
+    a{
+        letter-spacing: 5.04px;
+        font-size: 18px;
+font-weight: 300;
+color: #6e774a;
+
+
+}
+
+    }
+li{
+    .ba-list-p{
+    font-size: 18px;
+line-height: 40px;
+}}
+
+.ba-plus{
+   &::before{
+ content: "+";
+
+ margin-right: 30px;
+   }
+   
+}

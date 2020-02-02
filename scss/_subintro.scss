@@ -1,0 +1,72 @@
+
+.ba-subintro{
+    padding: 98px 0;
+}
+
+
+.wtf{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: url(../img/Holder.png);
+  background-repeat: no-repeat;
+
+background-position: 50%;
+margin-bottom: 120px;
+
+
+margin-bottom: 40px;
+  .we-are{
+      font-size: 24px;
+
+      font-weight: normal;
+  }
+}
+.ba-frame{
+    margin-bottom: 30px;
+}
+
+
+.ba-story{
+  letter-spacing: 0.72px;
+    font-size: 18px;
+    color: #6e774a;
+}
+.ba-art{
+  justify-content: center;
+}
+
+.ba-stoty-padding{
+  
+ @media (min-width: $medium) {
+
+
+  padding-right: 100px;
+
+
+
+  }
+}
+
+.ba-teller{
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 4.8px;
+}
+
+.tabs{
+letter-spacing: 6px;
+ color: #1c1c1b;
+  font-size: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  a{
+    text-decoration: none;
+list-style: none;
+  }
+text-decoration: none;
+list-style: none;
+}
+
